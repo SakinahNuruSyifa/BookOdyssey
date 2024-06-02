@@ -35,4 +35,11 @@ BookOdyssey adalah aplikasi yang dirancang khusus untuk para pencinta novel yang
 7. Local Data Persistent
 
 
+
+
+
+
+
+
+
 ps : project final yang fix ada di branch master
