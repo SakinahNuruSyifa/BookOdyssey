@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="18dp"
+    android:background="#F4DFC8"
+    android:layout_height="95dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/IV_Home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/home"
+            android:layout_marginBottom="3dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/IV_Home"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/IV_Search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/search"
+            android:layout_marginBottom="3dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/IV_Search"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/IV_Saved"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bookmark"
+            android:layout_marginBottom="3dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saved"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/IV_Saved"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/IV_Profile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/user"
+            android:layout_marginBottom="3dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/IV_Profile"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

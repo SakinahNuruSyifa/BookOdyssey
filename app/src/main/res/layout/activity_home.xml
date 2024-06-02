@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/nav_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="#F4DFC8"-->
+<!--        android:padding="15dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/rl_home"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/Home"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:src="@drawable/home"-->
+<!--                android:layout_marginBottom="3dp"-->
+<!--                android:layout_centerHorizontal="true"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Home"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_below="@+id/Home"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_centerHorizontal="true" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/Search"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:src="@drawable/search"-->
+<!--                android:layout_marginBottom="3dp"-->
+<!--                android:layout_centerHorizontal="true"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Search"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_below="@+id/Search"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_centerHorizontal="true"/>-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/Saved"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:src="@drawable/bookmark"-->
+<!--                android:layout_marginBottom="3dp"-->
+<!--                android:layout_centerHorizontal="true"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Saved"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_below="@+id/Saved"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_centerHorizontal="true"/>-->
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/Profile"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:src="@drawable/user"-->
+<!--                android:layout_marginBottom="3dp"-->
+<!--                android:layout_centerHorizontal="true"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Profile"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_below="@+id/Profile"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_centerHorizontal="true"/>-->
+<!--        </RelativeLayout>-->
+
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
